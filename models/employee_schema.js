@@ -18,4 +18,4 @@ const EmployeeSchema = schema_mongoose.Schema(
     }
     );
 
-module.exports = schema_mongoose.model('emp_schema_collection', EmployeeSchema);
+module.exports = schema_mongoose.model('emp_schema_collections', EmployeeSchema);

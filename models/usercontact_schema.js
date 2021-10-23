@@ -13,4 +13,4 @@ const UserSchema = schema_mongoose.Schema(
     }
     );
 
-module.exports = schema_mongoose.model('user_contact_schema_collection', UserSchema);
+module.exports = schema_mongoose.model('user_contact_schema_collections', UserSchema);

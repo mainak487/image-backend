@@ -15,4 +15,4 @@ const ImageSchema = schema_mongoose.Schema(
     }
 );
 
-module.exports = schema_mongoose.model('image_schema_collection', ImageSchema);
+module.exports = schema_mongoose.model('image_schema_collections', ImageSchema);

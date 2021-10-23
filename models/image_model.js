@@ -2,7 +2,7 @@
 const model_mongoose = require('mongoose');
 
 //CREATE MODEL Employee means Employee Information
-let ImageModel = model_mongoose.model('image_model_collection', 
+let ImageModel = model_mongoose.model('image_model_collections', 
 {
         catagory: { type: String },
         img_path: { type: String },
